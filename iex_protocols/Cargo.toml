@@ -1,0 +1,13 @@
+[package]
+name = "iex_protocols"
+version = "1.0.0"
+crate_type = "lib"
+edition = "2018"
+rust-version = "1.71"
+license = "Unlicense"
+description = "Unoffical Bindings to IEX protocols"
+repository = "https://github.com/noahbadoa/iex_protocols.git"
+
+[dependencies]
+bitflags = {version = "^2", default-features = false}
+macro_definition = {path = "../macro", version = "1.0.0"}

@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "iex_protocols", 
+    "examples/downloader", 
+    "macro"
+]
+resolver = "3"
+

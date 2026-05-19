@@ -1,0 +1,17 @@
+[package]
+name = "macro_definition"
+version = "1.0.0"
+edition = "2018"
+rust-version = "1.71"
+license = "Unlicense"
+description = "Proc macros for iex_protocols crate"
+repository = "https://github.com/noahbadoa/iex_protocols.git"
+
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = {version = "^1", default-features = false, features = ["proc-macro"]}
+syn = {version = "^2", default-features = false, features = ["proc-macro", "parsing", "derive", "printing", "extra-traits"]}
+proc-macro2 = {version = "^1", default-features = false}
