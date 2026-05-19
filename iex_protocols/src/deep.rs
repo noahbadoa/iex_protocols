@@ -39,7 +39,7 @@ bitflags::bitflags! {
 }
 
 
-macro_definition::parse_deep!(
+iex_protocols_macro_definition::parse_deep!(
     {Symbol, Reason}
 
     pub struct SystemEvent 0x53{

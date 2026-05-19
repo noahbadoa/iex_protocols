@@ -1,8 +1,7 @@
 [workspace]
 members = [
-    "iex_protocols", 
+    "macro", 
     "examples/downloader", 
     "macro"
 ]
 resolver = "3"
-

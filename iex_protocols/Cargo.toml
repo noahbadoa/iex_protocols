@@ -10,4 +10,4 @@ repository = "https://github.com/noahbadoa/iex_protocols.git"
 
 [dependencies]
 bitflags = {version = "^2", default-features = false}
-macro_definition = {path = "../macro", version = "1.0.0"}
+iex_protocols_macro_definition = {path = "../macro", version = "1.0.0"}
