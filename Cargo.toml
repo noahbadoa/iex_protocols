@@ -1,6 +1,6 @@
 [workspace]
 members = [
-    "macro", 
+    "iex_protocols", 
     "examples/downloader", 
     "macro"
 ]
